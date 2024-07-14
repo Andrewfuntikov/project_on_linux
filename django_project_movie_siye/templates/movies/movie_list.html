@@ -2,6 +2,8 @@
 {% block title %} {{ movie.title }} {% endblock title %}
 {% block header %} bg1 {% endblock header %}
 {% block movie %}
+{% load static %}
+<link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
     <div class="left-ads-display col-lg-9">
         <div class="row">
             {% for movie in movie_list %}

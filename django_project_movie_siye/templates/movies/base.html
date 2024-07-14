@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
+{% load static %}
+<link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
     <section class="ab-info-main py-md-5 py-4 editContent"
              style="padding-left: 3rem; padding-right: 3rem;">
         {% block container %}
