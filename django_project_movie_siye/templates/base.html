@@ -4,7 +4,6 @@
 <head>
     <!-- //Meta tag Keywords -->
     <title>{% block title %} {% endblock title %}</title>
-    <link rel="icon" href="{% static '/favicon.ico' %}" type="image/x-icon">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- //Meta tag Keywords -->
@@ -40,5 +39,7 @@
     {% endblock content %}
     {% include 'include/footer.html' %}
 </div>
+<script src="{% static 'js/scripts.js/' %}"></script>
+<script src="http://twitter.github.com/hogan.js/builds/3.0.1/hogan-3.0.1.js"></script>
 </body>
 </html>
